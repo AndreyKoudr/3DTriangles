@@ -8,9 +8,9 @@
 and connectivity array <I>corners</I> (3 coordinate indices for every triangle (face)). So, the
 three coordinates for an i-th triangle can be extracted as
 
-  coord0 = coords[corners[i * 3]];
-  coord1 = coords[corners[i * 3 + 1]];
-  coord2 = coords[corners[i * 3 + 2]];
+    coord0 = coords[corners[i * 3]];  
+    coord1 = coords[corners[i * 3 + 1]];
+    coord2 = coords[corners[i * 3 + 2]];
   
   Triangles can be loaded and saved from/into STL files. No checks about node numeration :
 it is supposed that face normal is defined by counter-clockwise numeration of nodes when
