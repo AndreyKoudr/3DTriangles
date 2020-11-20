@@ -45,12 +45,10 @@ mentioned in defines.h. But text input uses fstream.
 
   Test 2. <B>bricks.STL</B> file is loaded from current directory. It then save triangles in 
 
-  brick.bin.STL (binary STL)
+  - brick.bin.STL (binary STL)
+  - brick.txt.STL (text STL)
+  - brick.OBJ
 
-  brick.txt.STL (text STL)
-
-  brick.OBJ
-
-  - all files are written in current directory. Then the code loads the binary and text STL files
+  All files are written in current directory. Then the code loads the binary and text STL files
 and compares loaded data with the original, loaded from brick.STL.
   In this specific case the TTriangles class must contain 152 nodes and 936 / 3 faces (triangles).
